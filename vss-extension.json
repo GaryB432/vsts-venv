@@ -1,0 +1,61 @@
+{
+  "manifestVersion": 1,
+  "id": "venvextension",
+  "version": "0.3.3",
+  "name": "Venv Extension",
+  "scopes": [],
+  "description": "Make build- or deploy-time environment variables available to your application",
+  "publisher": "garybortosky",
+  "galleryFlags": [
+    "Preview"
+  ],
+  "icons": {
+    "default": "static/images/icon.png"
+  },
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "demands": [
+    "api-version/3.0"
+  ],
+  "tags": [],
+  "categories": [
+    "Build and release"
+  ],
+  "content": {
+    "license": {
+      "path": "license.md"
+    },
+    "details": {
+      "path": "overview.md"
+    }
+  },
+  "links": {
+    "issues": {
+      "uri": "https://github.com/GaryB432/tsts-venv/issues"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/GaryB432/tsts-venv"
+  },
+  "files": [
+    {
+      "path": "VenvTemplateTask"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "VenvTemplateTask",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "type": "ms.vss-distributed-task.task",
+      "properties": {
+        "name": "VenvTemplateTask"
+      }
+    }
+  ]
+}

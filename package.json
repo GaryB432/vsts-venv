@@ -1,0 +1,20 @@
+{
+  "name": "vsts-venv",
+  "private": true,
+  "version": "0.4.1",
+  "scripts": {
+    "format": "prettier --write **/*.ts --single-quote --trailing-comma es5",
+    "package": "npm run clean  && npm run compile  && tfx extension create  --rev-version",
+    "gallery-publish": "tfx extension publish --rev-version",
+    "clean": "rimraf ./*.vsix",
+    "compile": "npm run format && tsc -p .",
+    "install-task-lib": "cd VenvTemplateTask && npm install --save-dev"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.7",
+    "@types/q": "^1.0.3",
+    "prettier": "^1.5.3",
+    "tfx-cli": "^0.4.5",
+    "typescript": "2.3.4"
+  }
+}
