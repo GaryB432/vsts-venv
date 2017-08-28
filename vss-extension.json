@@ -1,13 +1,13 @@
 {
   "manifestVersion": 1,
   "id": "venvextension",
-  "version": "0.3.3",
+  "version": "0.3.6",
   "name": "Venv Extension",
   "scopes": [],
   "description": "Make build- or deploy-time environment variables available to your application",
   "publisher": "garybortosky",
   "galleryFlags": [
-    "Preview"
+    "Public"
   ],
   "icons": {
     "default": "static/images/icon.png"
