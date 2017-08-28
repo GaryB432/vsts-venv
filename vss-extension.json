@@ -1,10 +1,10 @@
 {
   "manifestVersion": 1,
   "id": "venvextension",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "name": "Venv Extension",
   "scopes": [],
-  "description": "Make build- or deploy-time environment variables available to your application",
+  "description": "Make build- or release-time environment variables available to your application",
   "publisher": "garybortosky",
   "galleryFlags": [
     "Public"
@@ -20,7 +20,13 @@
   "demands": [
     "api-version/3.0"
   ],
-  "tags": [],
+  "tags": [
+    "Build",
+    "Release",
+    "Utility Task",
+    "Environment",
+    "Variables"
+  ],
   "categories": [
     "Build and release"
   ],

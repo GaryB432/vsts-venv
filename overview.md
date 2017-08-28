@@ -1,6 +1,6 @@
 ## vsts-venv ##
 
-Make build-time environment variables available to your application
+Make build- or release-time environment variables available to your application
 
 ### Quick steps to get started ###
 
