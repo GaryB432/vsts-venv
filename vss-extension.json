@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "venvextension",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "name": "Venv Extension",
   "scopes": [],
   "description": "Make build- or release-time environment variables available to your application",
@@ -40,12 +40,12 @@
   },
   "links": {
     "issues": {
-      "uri": "https://github.com/GaryB432/tsts-venv/issues"
+      "uri": "https://github.com/GaryB432/vsts-venv/issues"
     }
   },
   "repository": {
     "type": "git",
-    "uri": "https://github.com/GaryB432/tsts-venv"
+    "uri": "https://github.com/GaryB432/vsts-venv"
   },
   "files": [
     {
